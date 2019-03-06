@@ -9,7 +9,8 @@ pip3 install opencv-python bs4 html5lib
 
 对于幼儿园，由于使用了谷歌识图，所以在大陆机器上使用请配置好代理，脚本中已经预留了位置；  
   
-完成Cookie填写后将在Scri目录下的.Execute_in_Sequence.sh和.Auto_Clean.sh加入crontab即可，例如：
+### 加入计划任务
+完成Cookie填写后将Scripts目录下的.Execute_in_Sequence.sh和.Auto_Clean.sh加入crontab即可，例如：
 ```
 # PT Auto Attend
 58 23 * * * /home/PT-Attend/Script/.Auto_Clean.sh
